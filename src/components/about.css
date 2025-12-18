@@ -1,0 +1,33 @@
+#resume-img {
+    width: 35vw;
+    max-width: 400px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#resume-img:hover {
+    filter: brightness(0.9);
+    translate: 0px 5px;
+    transform: rotate(2deg) scale(1.05);
+    box-shadow: 10px 10px 0px #ff5353;
+}
+
+#about {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    scroll-margin-top: 80px;
+}
+
+.lang-container {
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: hsl(0, 0%, 19%);
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: -5px -5px 0px #ff5353;
+}
